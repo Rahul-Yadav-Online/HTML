@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Montserrat','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    padding: 0% 10% 0% 10%;
+}
+
+#head-section{
+    background-color: lightgray;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    border-bottom: 1px solid black;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase ;
+}
+
+marquee{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+#headline{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#author{
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+
+#news{
+    padding-bottom: 10px;
+}
+
+#news-article{
+    width:30%;
+    float: left;
+    border-right: 1px solid black;
+    padding-right: 5px;
+}
+
+#nws-img{
+    padding-left: 15px;
+    float: left;
+    width: 65%;
+}
+
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightgray;
+    clear:both;
+    border-top: 1px solid black;
+    text-align: right;
+    padding-right: 5px;
+}
