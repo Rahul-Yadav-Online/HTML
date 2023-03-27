@@ -1,0 +1,7 @@
+#container{
+    background-color: lightseagreen;
+    margin:100px;
+    padding:10px;
+    border: 10px solid orange;
+    border-radius: 30px;
+}

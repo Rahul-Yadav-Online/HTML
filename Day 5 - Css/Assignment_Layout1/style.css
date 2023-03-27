@@ -1,0 +1,85 @@
+*{
+    margin : 0 px;
+    padding : 0 px;   
+    background-color: black;
+    color: white;
+}
+
+/** 
+    Navigation Bar -----------------------------------------------    
+**/
+header{
+    padding-top: 25px;
+    padding-bottom: 25px; 
+    height : 50px;
+}
+nav{
+    font-size: 20px;
+    float: right;
+    padding-right:100px;
+}
+#logo{
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    padding-left:100px;
+}
+#logo-fh{
+    color:white;
+}
+#logo-sh{
+    color:lightgreen;
+}
+#nav{
+    padding-left: 50px;
+}
+#nav a{
+    text-decoration: none;
+}
+
+/** 
+    Hero Section -----------------------------------------------    
+**/
+#hero{
+    padding:100px;
+    height: 100px;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1651010295616-e8d4788e96ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=985&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#hero h2{
+    background-color: transparent;
+    color: black;
+}
+
+#hero h2 span{
+    background-color: rgba(0, 0, 0, 0.258);
+    color: white;
+}
+
+#main{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#main-bx{
+    padding-right: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 30%;
+    float: left;
+}
+#bx-lnk{
+    color:green;
+    float: right;
+}
+
+/** 
+    footer Section -----------------------------------------------    
+**/
+footer{
+    float: right;
+    padding-right: 100px;
+}
