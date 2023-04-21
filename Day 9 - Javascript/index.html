@@ -13,6 +13,7 @@
         */
        let S = "HI HELLOW HOW ARE YOU";
        let cnt = 0;
+       let res = [];
        for(let i = 0; i < S.length ;  i++){
         if(S[i] == 'a' || S[i] == 'A'){
             cnt++;
@@ -30,9 +31,48 @@
             cnt++;
         }
        }
+        res['vovels'] = cnt; 
+
+
+       /*
+        * Sum of an array
+       */
+       let arr = [1,2,3,4,5,6];
+       let sm = 0;
+       for(let i=0; i<arr.length; i++){
+        sm+=arr[i];
+       }
+       res['sum'] = sm;
+
+       /*
+        * Minimum in an array
+       */
+       let arr1 = [0,1,2,3,4,5,6];
+       let min = arr[0];
+       for(let i=0; i<arr.length; i++){
+        if(arr1[i] < min){
+            min = arr1[i];
+        }
+       }
+       res['minimum'] = min;
+
+       /*
+        * Maximum in an array
+       */
+       let arr2 = [0,1,2,3,4,5,6];
+       let max = arr[0];
+       for(let i=0; i<arr2.length; i++){
+        if(arr2[i] < min){
+            max = arr1[i];
+        }
+       }
+       res['maximum'] = max;
+
 
        document.write("<h1>");
-       document.write(cnt);
+        for(let i in res){
+            document.write(i+ " : "+ res[i]+"<br>");
+        }
        document.write("</h1>");
     </script>
 </body>
